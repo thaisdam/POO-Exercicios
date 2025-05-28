@@ -1,0 +1,16 @@
+Implemente um sistema de reconhecimento e processamento de moedas utilizando o padrão de projeto Chain of Responsibility. O sistema deve ser capaz de identificar moedas com base em seus diâmetros e encaminhá-las para o manipulador apropriado para "reconhecimento" do valor, ou rejeitá-las caso o diâmetro não seja reconhecido.
+
+O programa simula a inserção de moedas com diferentes diâmetros. O 'Main' cria uma cadeia de manipuladores, onde cada manipulador é responsável por identificar um diâmetro específico de moeda (e, por inferência, seu valor).
+- As moedas são passadas para o primeiro manipulador da cadeia 'Manipulador100').
+- Cada manipulador verifica se o diâmetro da moeda corresponde ao que ele "manipula".
+- Se corresponder, ele deveria processar o valor (neste exemplo, ele apenas imprime o valor associado ao seu diâmetro esperado).
+- Se não corresponder, a requisição é passada para o próximo manipulador na cadeia.
+- Moedas com diâmetro não reconhecido por nenhum manipulador resultarão na mensagem "Moeda rejeitada" impressa pelo 'Manipulador01' caso a requisição chegue até ele e o diâmetro não seja 1.0.
+
+Exemplos de diâmetros de moedas testados:
+- 1.8 (simula uma moeda de R$1,00)
+- 1.6 (simula uma moeda de R$0,50)
+- 1.4 (simula uma moeda de R$0,10)
+- 1.2 (simula uma moeda de R$0,05)
+- 1.0 (simula uma moeda de R$0,01)
+- 1.5 (simula uma moeda com diâmetro não reconhecido)
