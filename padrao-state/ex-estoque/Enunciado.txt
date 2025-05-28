@@ -1,9 +1,12 @@
- Em um sistema de vendas, um produto pode estar em 3 diferentes estados:- disponível: quantidade > 10- estoqueCritico: quantidade entre 1 e 10- indisponível: quantidade igual a zero [ESTADO INICIAL]
- Um produto pode sofrer operações de compras (reposição de estoque) e vendas (abate de estoque). 
-A cada operação sofrida, o estado do produto pode ser verificado e alterado caso necessário, de 
+Em um sistema de vendas, um produto pode estar em 3 diferentes estados:
+
+- disponível: quantidade > 10
+- estoqueCritico: quantidade entre 1 e 10
+- indisponível: quantidade igual a zero [ESTADO INICIAL]
+
+Um produto pode sofrer operações de compras (reposição de estoque) e vendas (abate de estoque). A cada operação sofrida, o estado do produto pode ser verificado e alterado caso necessário, de 
 acordo com a nova quantidade em estoque.
- Um produto não pode ficar com estoque negativo (estado inexistente). 
-Estando em estoque crítico, a operação de venda deve emitir um alerta para que o gerente reponha o
- estoque (println).
- Utilize o padrão State para modelar e implementar adequadamente a solução para esta situação. 
+Um produto não pode ficar com estoque negativo (estado inexistente). 
+Estando em estoque crítico, a operação de venda deve emitir um alerta para que o gerente reponha o estoque (println).
+Utilize o padrão State para modelar e implementar adequadamente a solução para esta situação. 
 Apresente um método main() para simular sua execução 
