@@ -1,0 +1,8 @@
+Home Broker é um sistema oferecido pela Bolsa de Valores, Mercadorias e Futuros de São Paulo (BM&FBOVESPA) utilizado
+para conectar usuários ao pregão eletrônico no mercado de capitais. Usado como instrumento para negociação no mercado de capitais via Internet, ele permite que sejam enviadas ordens de compra e venda através do site de uma corretora na internet. Fonte: Wikipedia.
+ 
+Utilizando o padrão Observer, implemente um sistema de home broker onde: 
+– O usuário (cliente) pode se inscrever para acompanhamento de variação na cotação de ações (sujeito) que tiver interesse;
+– Ao ocorrer variação no preço de uma ação os clientes inscritos devem ser imediatamente avisados e devem exibir ao seu usuário estes novos valores;
+– No método main(), instancie alguns observadores e cadastre-os para observar algumas ações. Ainda, faça alguns sets no sujeito (preço das ações) e verifique se as notificações 
+ocorrem como esperado. 
