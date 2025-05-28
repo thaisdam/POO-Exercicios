@@ -1,0 +1,7 @@
+Em uma aplicação gráfica, deseja-se permitir a modelagem de formas geométricas 
+(quadrado, círculo, retângulo, triângulo...) e decorá-las com diferentes efeitos (preenchimento, 
+textura, luz, sombreamento, relevo, wireframe, 3D, etc...). O método desenhar() de um objeto 
+geométrico deve simular a renderização do objeto, retornando uma string com sua descrição (por 
+exemplo: “círculo, luz, sombreamento, 3D.”). Utilizando o padrão Decorator, crie esta aplicação. É
+ suficiente apresentar na implementação apenas 1 concrete component e 2 concrete decorators. Crie 
+um método main() para demonstrar a instanciação de um objeto decorado.
