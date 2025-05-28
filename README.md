@@ -1,6 +1,6 @@
 # Exercícios de Padrões de Projeto em Java
 
-Este repositório contém 6 exercícios práticos que abordam padrões de projeto em Java. Cada exercício é focado em um padrão específico e está organizado em sua própria pasta, contendo o código-fonte e o enunciado detalhado para facilitar o aprendizado e a compreensão.
+Este repositório contém 7 exercícios práticos que abordam padrões de projeto em Java. Cada exercício é focado em um padrão específico e está organizado em sua própria pasta, contendo o código-fonte e o enunciado detalhado para facilitar o aprendizado e a compreensão.
 
 ## Padrões de Projeto Abordados
 
@@ -33,3 +33,7 @@ O padrão **Observer** define uma dependência um-para-muitos entre objetos, de 
 ### **Composite (1 exercício)**
 
 O padrão **Composite** permite que você componha objetos em estruturas de árvore para representar hierarquias de "parte-todo". Ele permite que os clientes tratem objetos individuais e composições de objetos de forma uniforme. 
+
+---
+
+### **Strategy (1 exercício)**
