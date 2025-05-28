@@ -1,14 +1,13 @@
- Em computação e linguística, análise sintática (também conhecida pelo 
-termo em inglês parsing) é o processo de analisar uma sequência de entrada (lida de um arquivo de 
-computador ou do teclado, por exemplo) para determinar sua estrutura gramatical segundo uma 
-determinada gramática formal. A análise sintática transforma um texto na entrada em uma estrutura 
-de dados, em geral uma árvore, o que é conveniente para processamento posterior e captura a 
-hierarquia implícita desta entrada. Utilizando o padrão Composite, represente a estrutura de uma 
-linguagem de programação em que um programa pode ser formado por um ou mais comandos. Para
- isto, deve ter os seguintes nós: – comando composto: bloco de N comandos;– comando simples: nó folha, deve armazenar uma string com o nome do comando; – comando condicional: deve ser composto por dois nós representando cláusulas if e else, que 
-por sua vez podem armazenar um comando simples ou um comando composto. – O método execute() deve ser usado para executar o programa. O método execute() de um 
-comando simples deve mostrar o nome do comando, fornecido em seu construtor. O método 
-execute() de um comando composto deve varrer a lista de comandos do bloco e executar 
-cada um deles. O método execute() de um comando condicional deve gerar um número 
+Em computação e linguística, análise sintática (também conhecida pelo termo em inglês parsing) é o processo de analisar uma sequência de entrada (lida de um arquivo de 
+computador ou do teclado, por exemplo) para determinar sua estrutura gramatical segundo uma determinada gramática formal. A análise sintática transforma um texto na entrada em uma estrutura 
+de dados, em geral uma árvore, o que é conveniente para processamento posterior e captura a hierarquia implícita desta entrada. Utilizando o padrão Composite, represente a estrutura de uma 
+linguagem de programação em que um programa pode ser formado por um ou mais comandos. Para isto, deve ter os seguintes nós: 
+
+– comando composto: bloco de N comandos;
+– comando simples: nó folha, deve armazenar uma string com o nome do comando;
+– comando condicional: deve ser composto por dois nós representando cláusulas if e else, que por sua vez podem armazenar um comando simples ou um 
+comando composto. 
+– O método execute() deve ser usado para executar o programa. O método execute() de um comando simples deve mostrar o nome do comando, fornecido em seu construtor. O método 
+execute() de um comando composto deve varrer a lista de comandos do bloco e executar  cada um deles. O método execute() de um comando condicional deve gerar um número 
 aleatório entre 0 e 1. Caso o resultado seja menor que 0,5, o if deve ser executado. Caso 
 contrário, o else deve ser executado.
