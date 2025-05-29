@@ -37,3 +37,5 @@ O padrão **Composite** permite que você componha objetos em estruturas de árv
 ---
 
 ### **Strategy (1 exercício)**
+
+O padrão Strategy permite que você defina uma família de algoritmos, coloque cada um deles em uma classe separada e torne seus objetos intercambiáveis. Ele permite que o algoritmo varie independentemente dos clientes que o utilizam. Isso é útil quando você tem várias maneiras de executar uma tarefa específica e deseja que o cliente possa escolher qual algoritmo usar em tempo de execução, ou que o comportamento seja facilmente alterável.
